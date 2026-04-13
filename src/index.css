@@ -1,0 +1,247 @@
+@import url("https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&family=Cairo:wght@200..1000&family=Tajawal:wght@200;300;400;500;700;800;900&family=Zain:ital,wght@0,200;0,300;0,400;0,700;0,800;0,900;1,300;1,400&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+      scroll-behavior: smooth;
+  font-family: "Zain", sans-serif;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("./assets/bg/3.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  overflow-x: hidden;
+  overflow-y: auto;
+  color: #3E2203;
+}
+h1 {
+   font-family: "Tajawal", sans-serif;
+   color: #AA572F;
+   font-size: 50px;
+}
+h2 {
+   font-family: "Almarai", sans-serif;
+}
+h3 {
+    color: #AA572F;
+    
+    font-size: 30px;
+}
+.main-box {
+  /* From https://css.glass */
+  width: 1200px;
+  height: auto;
+   padding: 40px;
+   margin: 20px auto;
+background: rgba(255, 255, 255, 0.31);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(20px);
+-webkit-backdrop-filter: blur(20px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+display: flex;
+justify-content: space-around;
+gap: 35px;
+align-items: center;
+flex-direction: column;
+}
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  
+}
+.mini-time {
+  width: 150px;
+  background-color: rgba(255, 255, 255, 0.31);
+  border: 3px solid rgba(255, 255, 255, 0.3);
+  border-top-right-radius: 30px;
+  border-top-left-radius: 30px;
+  overflow: hidden;
+  cursor: pointer;
+}
+.mini-time:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 25px rgba(0,0,0,0.08);
+}
+.mini-time.active {
+  transform: scale(1.05);
+}
+.icon {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+.inner-name {
+  background-color: #DDAE74; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.inner-name h4 {
+  font-size: 30px;
+  color: #3E2203;     
+  font-weight: bold;             
+}
+.clock {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.clock span {
+  font-size: 23px;
+  color: #3E2203;     
+  font-weight: bold;             
+}
+.states {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+.states select {
+  width: 200px;
+   font-family: "Almarai", sans-serif;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  font-size: 16px;
+  background-color: rgba(255, 255, 255, 0.8);
+  font-weight: bold;
+  outline: none;
+  color: #3E2203;
+  cursor: pointer;
+}
+.states select:hover {
+  background-color: rgba(255, 255, 255, 1);
+}
+.state-name {
+  color: #AA572F;
+  font-weight: bolder;
+}
+.date {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background-color: rgba(255, 255, 255, 0.8);
+  cursor: pointer !important;
+  border-radius: 5px;
+  border: 3px solid rgba(255, 255, 255, 0.3);
+}
+.date input {
+  padding: 10px;
+  border-radius: 5px;
+ border: none;
+  cursor: pointer;
+   font-family: "Almarai", sans-serif;
+   background-color: transparent;
+  font-size: 16px;
+  outline: none;
+  color: #3E2203;
+  font-weight: bold;
+}
+.date input:hover {
+  border-color: rgba(255, 255, 255, 0.8);
+}
+.input-date {
+   font-family: "Almarai", sans-serif;    font-size: 16px;
+     color: #3E2203;
+  cursor: pointer;
+   padding: 10px;
+   font-weight: bold;
+
+}
+@media (max-width: 768px) {
+
+  .main-box {
+    width: 90%;
+    height: auto;
+    margin: 20px auto;
+    padding: 20px;
+  }
+  .container {
+    flex-direction: column;
+      gap: 20px;
+
+  }
+  .mini-time {
+    width: 80%;
+    margin: 0 auto;
+   order: 1;
+    
+  }
+  .states {
+    margin-bottom: 20px;
+  }
+  .states select {
+    width: 100%;
+     margin-bottom: 20px;
+     order: 2;
+  }
+  .date {
+   
+    margin-top: 20px;
+  }
+  .date input {
+    width: 100%;
+  }
+  h1 {
+    font-size: 30px;
+    margin: 10px 0;
+  }
+  h2 {
+    font-size: 24px;
+   
+  }
+   h3 {
+    font-size: 24px;
+    font-weight: bold;
+   
+  }
+  h4 {
+    font-size: 18px;
+  }
+  
+}
+@media (max-width: 480px) {
+  .main-box {
+    width: 90%;
+    height: auto;
+    margin: 20px auto;
+    padding: 20px;
+  }
+  .container {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .mini-time {
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    
+  }
+  .states {
+    position: static;
+    margin-top: 20px;
+  }
+  .states select {
+    width: 100%;
+  }
+  .date {
+    position: static;
+    margin-top: 20px;
+  }
+  .date input {
+    width: 100%;
+  }
+  
+
+}

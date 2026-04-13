@@ -1,0 +1,20 @@
+export const sudanStates = [
+  { nameAr: "الخرطوم", city: "Khartoum", country: "SD" },
+  { nameAr: "كسلا", city: "Kassala", country: "SD" },
+  { nameAr: "الجزيرة", city: "Wad Madani", country: "SD" },
+  { nameAr: "البحر الأحمر", city: "Port Sudan", country: "SD" },
+  { nameAr: "نهر النيل", city: "Atbara", country: "SD" },
+  { nameAr: "الشمالية", city: "Dongola", country: "SD" },
+  { nameAr: "شمال كردفان", city: "El Obeid", country: "SD" },
+  { nameAr: "جنوب كردفان", city: "Kadugli", country: "SD" },
+  { nameAr: "غرب كردفان", city: "Al Fula", country: "SD" },
+  { nameAr: "النيل الأبيض", city: "Kosti", country: "SD" },
+  { nameAr: "سنار", city: "Sennar", country: "SD" },
+  { nameAr: "النيل الأزرق", city: "Ad Damazin", country: "SD" },
+  { nameAr: "القضارف", city: "Gedaref", country: "SD" },
+  { nameAr: "شمال دارفور", city: "Al Fashir", country: "SD" },
+  { nameAr: "جنوب دارفور", city: "Nyala", country: "SD" },
+  { nameAr: "غرب دارفور", city: "Geneina", country: "SD" },
+  { nameAr: "شرق دارفور", city: "Ad Daein", country: "SD" },
+  { nameAr: "وسط دارفور", city: "Zalingei", country: "SD" }
+];
