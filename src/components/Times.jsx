@@ -59,7 +59,7 @@ function Times() {
     
     <select name="state" id="state" onChange={(e) => setSelectedState(sudanStates.find(state => state.city === e.target.value))}>
       {sudanStates.map((state) => (
-        <option key={state} value={state.city}>{state.nameAr}</option>
+        <option key={state.city} value={state.city}>{state.nameAr}</option>
       ))}
     </select>
     </div>
