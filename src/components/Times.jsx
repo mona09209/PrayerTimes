@@ -1,5 +1,4 @@
 import MiniTime from './MiniTime';
-import image from '../assets/bg/prayer.gif';
 import axios from 'axios';
 import { useEffect, useState } from 'react';
 import { sudanStates } from '../data/SudanStates';

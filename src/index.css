@@ -5,14 +5,17 @@
   margin: 0;
   box-sizing: border-box;
 }
+html {
+  scroll-behavior: smooth;
+}
 body {
-      scroll-behavior: smooth;
+   
   font-family: "Zain", sans-serif;
   min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url("./assets/bg/3.jpg");
+ background-image: url("/PrayerTimes/bg/3.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
