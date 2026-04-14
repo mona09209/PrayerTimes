@@ -1,4 +1,4 @@
-export const sudanCities = [
+export const sudanStates = [
   { nameAr: "الخرطوم", city: "Khartoum", country: "SD" },
   { nameAr: "أم درمان", city: "Omdurman", country: "SD" },
   { nameAr: "ود مدني", city: "Wad Medani", country: "SD" },
