@@ -15,7 +15,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
- background-image: url("/PrayerTimes/bg/3.jpg");
+ background-image: url("/bg/3.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -37,12 +37,14 @@ h3 {
     
     font-size: 30px;
 }
+
 .main-box {
   /* From https://css.glass */
   width: 1200px;
   height: auto;
    padding: 40px;
    margin: 20px auto;
+    background-color: rgba(255, 255, 255, 0.6);
 background: rgba(255, 255, 255, 0.31);
 border-radius: 16px;
 box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -64,7 +66,7 @@ flex-direction: column;
 }
 .mini-time {
   width: 150px;
-  background-color: rgba(255, 255, 255, 0.31);
+  background-color: rgba(255, 255, 255, 0.31) !important;
   border: 3px solid rgba(255, 255, 255, 0.3);
   border-top-right-radius: 30px;
   border-top-left-radius: 30px;
