@@ -1,7 +1,7 @@
 const sudanCities = [
   { nameAr: "الخرطوم", city: "Khartoum", country: "SD" },
   { nameAr: "أم درمان", city: "Omdurman", country: "SD" },
-  { nameAr: "بحري", city: "Khartoum", country: "SD" },
+  { nameAr: "بحري", city: "Khartoum", country: "SD" }, 
   { nameAr: "ود مدني", city: "Wad Medani", country: "SD" },
   { nameAr: "بورتسودان", city: "Port Sudan", country: "SD" },
   { nameAr: "كسلا", city: "Kassala", country: "SD" },
