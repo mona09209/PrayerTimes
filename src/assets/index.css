@@ -105,10 +105,14 @@ flex-direction: column;
   color: #3E2203;     
   font-weight: bold;             
 }
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 .states {
-  position: absolute;
-  top: 20px;
-  right: 20px;
+
 }
 .states select {
   width: 200px;
@@ -131,9 +135,6 @@ flex-direction: column;
   font-weight: bolder;
 }
 .date {
-  position: absolute;
-  top: 20px;
-  left: 20px;
   background-color: rgba(255, 255, 255, 0.8);
   cursor: pointer !important;
   border-radius: 5px;
@@ -175,23 +176,30 @@ flex-direction: column;
       gap: 20px;
 
   }
+  .header {
+    flex-direction: column;
+    
+  }
+
   .mini-time {
     width: 80%;
     margin: 0 auto;
-   order: 1;
+    font-size: 18px;
     
   }
+  
   .states {
     margin-bottom: 20px;
+    width: 100%;
+     order: 1;
   }
   .states select {
     width: 100%;
-     margin-bottom: 20px;
      order: 2;
   }
   .date {
-   
-    margin-top: 20px;
+      order: 3;
+    width: 100%;
   }
   .date input {
     width: 100%;
@@ -226,10 +234,10 @@ flex-direction: column;
     gap: 20px;
   }
   .mini-time {
-    width: 80%;
+    width: 70%;
     margin: 0 auto;
     margin-bottom: 20px;
-    
+    font-size: 16px !important;
   }
   .states {
     position: static;

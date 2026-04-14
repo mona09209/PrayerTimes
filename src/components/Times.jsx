@@ -54,7 +54,7 @@ function Times() {
   return (
     <div className='main-box'>
 
-  <div>
+  <div className='header'>
       <div className='states' >
     
     <select name="state" id="state" onChange={(e) => setSelectedState(sudanStates.find(state => state.city === e.target.value))}>
