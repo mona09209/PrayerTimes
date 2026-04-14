@@ -49,22 +49,29 @@ h3 {
     font-size: 30px;
 }
 .main-box {
-  width: 1200px;
-  height: auto;
-  padding: 40px;
-  margin: 20px auto;
+    position: relative;
+    z-index: 10;
 
-  background: rgba(255, 255, 255, 0.15);
-  backdrop-filter: blur(30px);
-  -webkit-backdrop-filter: blur(30px);
-  border: 1px solid rgba(255, 255, 255, 0.25);
-  border-radius: 16px;
-  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-around;
-  gap: 35px;
+    background: rgba(255, 255, 255, 0.15);
+
+    backdrop-filter: blur(30px);
+    -webkit-backdrop-filter: blur(30px);
+
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    border-radius: 16px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 35px;
+
+    width: 1200px;
+    height: auto;
+    margin: 20px auto;
+    padding: 40px;
+
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
 }
 .container {
   display: flex;
